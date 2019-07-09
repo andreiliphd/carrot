@@ -1,7 +1,7 @@
 # Carrot - tensorboard for PyTorch
 ============
 
-Carrot is a neural network web base analysis tool that allow to see parameters and gradients visually. I want to say that work is in
+Carrot is a neural network web based analysis tool that allow to see parameters and gradients visually. I want to say that work is in
 progress. See Contributing for details.
 
 
@@ -45,14 +45,14 @@ Install all the dependencies.
 
 ## Usage
 
-- You can use this application to analyse your neural network architecture
+- You can use this application to analyze your neural network architecture from inside
 
 ---
 
 ## Contributing
 
-- Showing multidemenstional plots might require a lot of memory. Although I solved it partially improvement might be made.
-- MongoDB in implementation is not ideal. Faster to use pickle to save data.
+- Showing multidemenstional plots might require a lot of memory. Although, I solved it partially, improvement might be made.
+- MongoDB in implementation is not ideal. Faster to use pickle to save data or even JSON.
 - Two preprocessing steps might be removed and heavy workload migh be done on the side of the client not frontend.
 - This is a minimum viable product.
 
