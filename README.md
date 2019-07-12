@@ -1,67 +1,23 @@
-# Carrot - tensorboard for PyTorch
-============
-
-Carrot is a neural network web based analysis tool that allow to see parameters and gradients visually. I want to say that work is in
-progress. See Contributing for details.
-
+# **Carrot - tensorboard for PyTorch**
 
 ---
 
-## Features
-- You can visually see gradients, parameters, training loss, test loss, training accuracy and test accuracy.
+## Description
+
+Features:
+
+1. Losses - ability to see training, test losses and accuracy.
+2. Model - look at the graph of the model.
+3. Parameters - see parameters of PyTorch model.
+4. Gradients - analyze gradients of the model.
 
 ---
 
-## Stack
-- PyTorch
-- Dash
-- MongoDB
+## Clone a repository
 
----
-
-
-
-## Screenshots
-
-![Loss tab](https://github.com/andreiliphd/carrot/blob/master/images/loss_tab.jpg)
-
-![Accuracy tab](https://github.com/andreiliphd/carrot/blob/master/images/accuracy_tab.jpg)
-
-![Parameters tab](https://github.com/andreiliphd/carrot/blob/master/images/parameter_tab.jpg)
-
-![Gradients tab](https://github.com/andreiliphd/carrot/blob/master/images/gradient_tab.jpg)
-
----
-
-## Setup
-Clone this repo:
-```
-git clone https://github.com/andreiliphd/carrot.git
-```
-Install all the dependencies.
-
----
-
-
-## Usage
-
-- You can use this application to analyze your neural network architecture from inside
-
----
-
-## Contributing
-
-- Showing multidemenstional plots might require a lot of memory. Although, I solved it partially, improvement might be made.
-- MongoDB in implementation is not ideal. Faster to use pickle to save data or even JSON.
-- Two preprocessing steps might be removed and heavy workload migh be done on the side of the client not frontend.
-- This is a minimum viable product.
-
----
-
+To clone repositary simple type: `hg clone https://andreiliphd@bitbucket.org/andreiliphd/carrot`
 
 ## License
-You can check out the full license in the LICENSE file.
 
-This project is licensed under the terms of the **MIT** license.
-
+The project is under MIT License.
 
