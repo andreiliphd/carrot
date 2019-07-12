@@ -1,7 +1,7 @@
 # Carrot - tensorboard for PyTorch
 ============
 
-Carrot is a web application that uses MySQL to get data with loss, accuracy, optimezed parameters and gradients that allows to visually see what is happening inside neural network.
+Carrot is a web application that uses MySQL to get data of loss, accuracy, optimized parameters and gradients that allows to visually see what is happening inside a neural network.
 
 ---
 
@@ -48,7 +48,7 @@ Install all the dependencies.
 
 ## Contributing
 
-- Sometimes UI do not refresh possiblhy problem with callbacks
+- Sometimes UI do not refresh possibly problem with callbacks
 
 ---
 
